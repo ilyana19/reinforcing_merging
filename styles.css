@@ -16,7 +16,20 @@ section {
   width: 80%;
   border: 1px solid #333;
   max-width: 1024px;
-  min-height: 100%;
+  min-height: 600px;
   margin: 0 auto;
   padding: 25px;
+}
+
+#gallery {
+  height: auto;
+}
+
+#gallery ul {
+  padding: 0;
+}
+
+#gallery li {
+  list-style-type: none;
+  display: inline-block;
 }
